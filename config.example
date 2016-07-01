@@ -1,0 +1,18 @@
+# Sample config file for ytsync
+#
+# Config Section Options:
+# url (required) points to the Youtube playlist
+# sync (optional)   if true, will leave the section in the file
+#                   if false, will delete upon successful download 
+#                   defaults to false
+# audio (optional)  if true, will rip the audio and save as mp3
+#                   defaults to false
+[DEFAULT]
+sync = False
+audio = False
+
+[Shareware OSTs]
+url=https://www.youtube.com/playlist?list=PLeBsnQnRC2YfFFkWQhT5GmPs2mlBDJhVE
+sync=True
+audio=True
+

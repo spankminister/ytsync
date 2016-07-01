@@ -1,0 +1,4 @@
+- Implement tests:
+    - Video (sync on/off)
+    - Audio (sync on/off)
+
